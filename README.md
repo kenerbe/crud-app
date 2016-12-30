@@ -1,9 +1,14 @@
 # crud-app
 Node express server app to provide basic CRUD functions using Mongodb via MongoLab
 
-After you setup your free "Sandbox" mlab / MongoLab account, setup a DB_ENV environment
-variable with the MongoDB URI value.  
+Requires you setup a mlab / MongoLab account, set a DB_ENV environment
+variable with the MongoDB URI value.  A free "snadbox" setup works for this.
 
-Run the node app like this - for example, on unbuntu, from the shell prompt run DB_ENV="mongodb://UserID:Password@ds93454.mlab.com:94567/databasename" node server.js
+Run the node app as follows - for example from an unbuntu shell prompt:
 
-Fill in your specific mlab / MongoLab values as appropriate. 
+    - git clone https://github.com/kenerbe/crud-app.git
+    - cd crud-app
+    - npm install
+    - DB_ENV="mongodb://UserID:Password@ds93454.mlab.com:94567/databasename" node server.js
+
+Fill in your specific mlab / MongoLab URI values as appropriate.
