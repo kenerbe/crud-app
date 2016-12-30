@@ -1,0 +1,35 @@
+{
+  "name": "crud-app",
+  "version": "0.1.0",
+  "description": "Nodejs express server app for basic CRUD using mongodb",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenerbe/crud-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "CRUD",
+    "mongodb"
+  ],
+  "author": "Ken Erbe <KenErbe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenerbe/crud-app/issues"
+  },
+  "homepage": "https://github.com/kenerbe/crud-app#readme"
+}
