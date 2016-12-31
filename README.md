@@ -1,6 +1,10 @@
 # crud-app
 Node express server app to provide basic CRUD functions using Mongodb via MongoLab
 
+This is from Zell Liew's well written blog article:
+
+    https://zellwk.com/blog/crud-express-mongodb/
+
 Requires you setup a mLab / MongoLab account, set a DB_ENV environment
 variable with the MongoDB URI value.  A free "snadbox" setup works for this.
 
